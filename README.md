@@ -1,2 +1,2 @@
-# qr-code-frontend-mentor
+# QR Code Frontend Mentor
 First Challenge Of Frontend Mentor
