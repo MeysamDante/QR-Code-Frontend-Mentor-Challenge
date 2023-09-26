@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "outfit-bold";
+    src: url(../Fonts/Outfit-Bold.ttf) format(truetype);
+    font-weight: 700;
+}
+@font-face {
+    font-family: "outfit-normal";
+    src: url(../Fonts/Outfit-Normal.ttf) format(truetype);
+    font-weight: 400;
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 287px;
+    margin: auto;
+    margin-top: 7rem;
+    padding: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 2px hsl(220, 15%, 55%);
+}
+img {
+    border-radius: 10px;
+}
+h1 {
+    font-family: "outfit-bold";
+    font-size: 1.4rem;
+    padding: 1.5rem 0 1rem 0;
+}
+p {
+    font-family: "outfit-normal";
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-bottom: 1rem;
+}
+h1,p {
+    text-align: center;
+    margin: 0 0.7rem;
+}
